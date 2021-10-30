@@ -1,0 +1,5 @@
+@url = http://localhost:4500
+
+
+GET {{url}}/metrics?cryptoId=BTC&interval=1
+###

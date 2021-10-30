@@ -1,0 +1,27 @@
+{
+  "name": "ftt-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "localmon": "cross-env MODE=local nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developart16/ftt-b.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developart16/ftt-b/issues"
+  },
+  "homepage": "https://github.com/developart16/ftt-b#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.22.1",
+    "fastify-cors": "^6.0.2",
+    "mongodb": "^4.1.3"
+  }
+}
