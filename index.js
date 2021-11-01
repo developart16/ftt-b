@@ -8,7 +8,7 @@ const fastify = require("fastify")({
 });
 
 
-const envFile = `${process.env.MODE || "test"}.env`;
+const envFile = `${process.env.MODE || "local"}.env`;
 const envRoute = path.resolve(__dirname, "./env", envFile);
 
 if (fs.existsSync(envRoute)) {

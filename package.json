@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "localmon": "cross-env MODE=local nodemon index.js"
+    "localmon": "cross-env MODE=local nodemon index.js",
+    "databaseCreator": "node restartDB.js"
   },
   "repository": {
     "type": "git",
