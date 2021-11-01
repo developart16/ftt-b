@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "local": "cross-env MODE=local node index.js",
     "localmon": "cross-env MODE=local nodemon index.js",
     "databaseCreator": "node restartDB.js"
   },

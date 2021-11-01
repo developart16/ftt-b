@@ -22,4 +22,4 @@ run the command `node restartDB.js` or execute the `databaseCreator` script in t
 
 
 ### Starting the Project
-run the command `cross-env MODE=local nodemon index.js` or execute the `localmon` script in the `package.json`
+run the command `cross-env MODE=local node index.js` or execute the `local` script in the `package.json`
